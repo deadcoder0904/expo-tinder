@@ -1,12 +1,12 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import { SafeAreaView, Text } from 'react-native'
 
 class MessagesScreen extends React.Component {
   render() {
     return (
-      <View>
+      <SafeAreaView>
         <Text>Messages Screen</Text>
-      </View>
+      </SafeAreaView>
     )
   }
 }

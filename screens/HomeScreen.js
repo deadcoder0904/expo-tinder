@@ -1,12 +1,11 @@
-import React from 'react'
-import { Text, View } from 'react-native'
-
+import React from 'react';
+import { SafeAreaView, Text } from 'react-native';
 class HomeScreen extends React.Component {
   render() {
     return (
-      <View>
+      <SafeAreaView>
         <Text>Home Screen</Text>
-      </View>
+      </SafeAreaView>
     )
   }
 }

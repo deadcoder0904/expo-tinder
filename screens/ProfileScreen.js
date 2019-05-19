@@ -1,12 +1,12 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import { SafeAreaView, Text } from 'react-native'
 
 class ProfileScreen extends React.Component {
   render() {
     return (
-      <View>
+      <SafeAreaView>
         <Text>Profile Screen</Text>
-      </View>
+      </SafeAreaView>
     )
   }
 }
