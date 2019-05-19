@@ -10,9 +10,14 @@ import MessagesScreen from '../screens/MessagesScreen'
 import ProfileScreen from '../screens/ProfileScreen'
 import TopPicksScreen from '../screens/TopPicksScreen'
 
-const HomeStack = createStackNavigator({
-  Home: HomeScreen,
-})
+const HomeStack = createStackNavigator(
+  {
+    Home: HomeScreen,
+  },
+  {
+    headerMode: 'none',
+  },
+)
 
 HomeStack.navigationOptions = {
   tabBarLabel: 'Home',
@@ -25,9 +30,14 @@ HomeStack.navigationOptions = {
   ),
 }
 
-const TopPicksStack = createStackNavigator({
-  TopPicks: TopPicksScreen,
-})
+const TopPicksStack = createStackNavigator(
+  {
+    TopPicks: TopPicksScreen,
+  },
+  {
+    headerMode: 'none',
+  },
+)
 
 TopPicksStack.navigationOptions = {
   tabBarLabel: 'TopPicks',
@@ -36,9 +46,14 @@ TopPicksStack.navigationOptions = {
   ),
 }
 
-const MessagesStack = createStackNavigator({
-  Messages: MessagesScreen,
-})
+const MessagesStack = createStackNavigator(
+  {
+    Messages: MessagesScreen,
+  },
+  {
+    headerMode: 'none',
+  },
+)
 
 MessagesStack.navigationOptions = {
   tabBarLabel: 'Messages',
@@ -47,9 +62,14 @@ MessagesStack.navigationOptions = {
   ),
 }
 
-const ProfileStack = createStackNavigator({
-  Profile: ProfileScreen,
-})
+const ProfileStack = createStackNavigator(
+  {
+    Profile: ProfileScreen,
+  },
+  {
+    headerMode: 'none',
+  },
+)
 
 ProfileStack.navigationOptions = {
   tabBarLabel: 'Profile',
