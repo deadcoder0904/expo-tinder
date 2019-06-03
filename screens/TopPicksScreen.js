@@ -39,10 +39,11 @@ const styles = StyleSheet.create({
   h2Style: {
     fontWeight: 'bold',
     textAlign: 'center',
+    color: '#000000',
   },
   h4Style: {
     textAlign: 'center',
-    color: 'grey',
+    color: '#757575',
   },
   grid: {
     marginTop: 20,
