@@ -3,8 +3,9 @@ import { Image, SafeAreaView, StyleSheet, View } from 'react-native'
 import { Divider, Icon, Text } from 'react-native-elements'
 import Layout from '../constants/Layout'
 import { HomeScreenPics } from '../constants/Pics'
+import { randomNo } from '../utils/randomNo'
 
-const { pic, title } = HomeScreenPics[0]
+const { pic, title } = HomeScreenPics[randomNo(1, HomeScreenPics.length)]
 
 const Social = ({ name }) => (
   <Icon
