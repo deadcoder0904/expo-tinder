@@ -23,21 +23,17 @@ class ProfileScreen extends React.Component {
         <View style={styles.imageContainer}>
           <Image source={pic} style={styles.image} />
         </View>
-        <Text h4 style={[styles.textColor, styles.name]}>
+        <Text h4 style={styles.name}>
           {title}
         </Text>
-        <Text style={[styles.textColor, styles.job]}>
-          Fashion Designer at Amelia & Co.
-        </Text>
+        <Text style={styles.desc}>Fashion Designer at Amelia & Co.</Text>
         <Divider style={styles.divider} />
-        <Text style={[styles.textColor, styles.job]}>
+        <Text style={styles.desc}>
           I love to travel. I have a cat named pickles, if he likes you, I
           probably will too.
         </Text>
         <Divider style={styles.divider} />
-        <Text style={[styles.textColor, styles.job]}>
-          Find me on Social here
-        </Text>
+        <Text style={styles.desc}>Find me on Social here</Text>
         <View style={styles.socialLinks}>
           <Social name="snapchat" />
           <Social name="instagram" />
@@ -70,19 +66,17 @@ const styles = StyleSheet.create({
     height: Layout.window.height / 2 - 60,
     borderRadius: 20,
   },
-  textColor: {
-    color: '#5E5E5E',
-  },
   name: {
+    color: '#5E5E5E',
     alignSelf: 'flex-start',
     marginLeft: 30,
   },
-  job: {
+  desc: {
+    color: '#5E5E5E',
     alignSelf: 'flex-start',
     marginTop: 5,
     marginHorizontal: 30,
     fontSize: 14,
-    color: 'grey',
   },
   divider: {
     backgroundColor: '#C0C0C0',
