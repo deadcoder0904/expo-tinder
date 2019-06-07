@@ -51,15 +51,6 @@ const styles = StyleSheet.create({
   },
   imageContainer: {
     margin: 20,
-    // for android
-    elevation: 5,
-    // for ios
-    shadowOpacity: 0.7,
-    shadowRadius: 5,
-    shadowOffset: {
-      height: 4,
-      width: 4,
-    },
   },
   image: {
     width: Layout.window.width - 60,
