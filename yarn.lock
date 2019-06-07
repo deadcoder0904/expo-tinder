@@ -5742,7 +5742,15 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@15.5.10:
+  version "15.5.10"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
+  integrity sha1-J5ffwxJhguOpXj37suiT3ddFYVQ=
+  dependencies:
+    fbjs "^0.8.9"
+    loose-envify "^1.3.1"
+
+prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -5847,6 +5855,13 @@ react-native-branch@2.2.5:
   resolved "https://registry.yarnpkg.com/react-native-branch/-/react-native-branch-2.2.5.tgz#4074dd63b4973e6397d9ce50e97b57c77a518e9d"
   integrity sha1-QHTdY7SXPmOX2c5Q6XtXx3pRjp0=
 
+react-native-deck-swiper@1.5.25:
+  version "1.5.25"
+  resolved "https://registry.yarnpkg.com/react-native-deck-swiper/-/react-native-deck-swiper-1.5.25.tgz#1188339cc33bb87f629cb963e8ef5f6a9a9305d7"
+  integrity sha512-s3QiAV6/u5Vu1zc/8xH/zAKlCzlryilI+Z9gAteg7TntSMa/pMP3/5owsBw6qTRoEmAI5hYsIUs0A494NA50Zg==
+  dependencies:
+    prop-types "15.5.10"
+
 react-native-elements@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/react-native-elements/-/react-native-elements-1.1.0.tgz#f99bcda4459a886f3ab4591c684c099d37aedf2b"
@@ -5885,13 +5900,6 @@ react-native-ratings@^6.3.0:
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"
-
-react-native-realistic-deck-swiper@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/react-native-realistic-deck-swiper/-/react-native-realistic-deck-swiper-0.1.3.tgz#754aa19dd076b5f9e93ed3d3e6f4d403d0934a1f"
-  integrity sha512-LFuLPke+FccHOfE3iGNeY578awiHNF7mBLe7ukA/KS04voFI+vKJsPILDxPVnRssWbX2ONp1N/u/LjKeq/VVPg==
-  dependencies:
-    prop-types "^15.7.2"
 
 react-native-reanimated@1.0.0-alpha.11:
   version "1.0.0-alpha.11"
